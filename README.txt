@@ -1,5 +1,5 @@
 ================================================================================
-PROJET SAHELSOUND RECORDS - Groupe [À COMPLÉTER]
+PROJET SAHELSOUND RECORDS - Groupe 
 ================================================================================
 
 MEMBRES DU GROUPE (tout le monde a codé) :

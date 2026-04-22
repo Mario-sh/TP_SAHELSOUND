@@ -18,7 +18,7 @@ def menu_consulter(catalogue):
         print("  a. Afficher tous les artistes")
         print("  b. Rechercher par nom ou genre")
         print("  c. Détail d'un artiste")
-        print("  d. Recherche avancée (genre + pays + année)")  # NOUVEAU
+        print("  d. Recherche avancée (genre + pays + année)")  
         print("  r. Retour au menu principal")
         print("-" * 40)
         choix = input("Choix : ").strip().lower()
