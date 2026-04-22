@@ -12,15 +12,11 @@ CHEMIN = "catalogue.json"
 def menu_consulter(catalogue):
     """Sous-menu pour consulter le catalogue."""
     while True:
-        print("\n" + "-" * 40)
-        print("   CONSULTER LE CATALOGUE")
-        print("-" * 40)
+        print("\n-- Consulter le catalogue --")
         print("  a. Afficher tous les artistes")
         print("  b. Rechercher par nom ou genre")
         print("  c. Détail d'un artiste")
-        print("  d. Recherche avancée (genre + pays + année)")  # NOUVEAU
         print("  r. Retour au menu principal")
-        print("-" * 40)
         choix = input("Choix : ").strip().lower()
 
         if choix == "a":
@@ -62,43 +58,6 @@ def menu_consulter(catalogue):
                     )
             else:
                 print("Artiste introuvable.")
-
-        elif choix == "d":  # NOUVEAU : Recherche avancée
-            print("\n" + "-" * 40)
-            print("   RECHERCHE AVANCÉE")
-            print("-" * 40)
-            print("(Laisser vide pour ignorer un critère)")
-            print("-" * 40)
-            
-            genre = input("🎵 Genre musical : ").strip()
-            pays = input("🌍 Pays d'origine : ").strip()
-            annee_min_str = input("📅 Année minimum (ex: 2015) : ").strip()
-            
-            annee_min = None
-            if annee_min_str:
-                try:
-                    annee_min = int(annee_min_str)
-                except ValueError:
-                    print("Année invalide, critère ignoré.")
-            
-            # Appel à la fonction de recherche avancée
-            resultats = label.rechercher_avancee(
-                catalogue, 
-                genre=genre if genre else None,
-                pays=pays if pays else None,
-                annee_min=annee_min
-            )
-            
-            if not resultats:
-                print("\n❌ Aucun résultat trouvé.")
-            else:
-                print(f"\n✅ {len(resultats)} album(s) trouvé(s) :")
-                print("-" * 70)
-                print(f"{'ARTISTE':<18} {'TITRE':<25} {'ANNEE':<8} {'STREAMS':>12}")
-                print("-" * 70)
-                for r in resultats:
-                    print(f"{r['artiste']:<18} {r['titre']:<25} {r['annee']:<8} {r['streams']:>12,}")
-                print("-" * 70)
 
         elif choix == "r":
             break
@@ -233,7 +192,9 @@ def menu_statistiques(catalogue):
 
         elif choix == "d":
             print("\n📁 Export du rapport en cours...")
-            analyse.exporter_rapport(catalogue)
+            analyse.exporter_rapport(catalogue)  # Version améliorée
+            # Si tu préfères garder la version simple (CSV uniquement) :
+            # analyse.exporter_rapport_simple(catalogue)
 
         elif choix == "r":
             break

@@ -1,34 +1,75 @@
-﻿artiste,genre,pays,titre,annee,streams
-Fally Ipupa,Afrobeat,RDC,Power Kosa Leka,2013,4200000
-Fally Ipupa,Afrobeat,RDC,Tokooos,2017,6800000
-Fally Ipupa,Afrobeat,RDC,Tokooos II,2022,5100000
-Burna Boy,Afrobeat,Nigeria,African Giant,2019,9500000
-Burna Boy,Afrobeat,Nigeria,Twice as Tall,2020,12300000
-Burna Boy,Afrobeat,Nigeria,"Love, Damini",2022,15800000
-Aya Nakamura,Afropop,Mali,Nakamura,2018,11000000
-Aya Nakamura,Afropop,Mali,Journal intime,2019,8700000
-Aya Nakamura,Afropop,Mali,DNK,2021,13400000
-Sidiki Diabaté,Mandingue,Mali,Sababu,2015,2100000
-Sidiki Diabaté,Mandingue,Mali,Histoire d'amour,2018,3400000
-Serge Beynaud,Coupé-Décalé,Côte d'Ivoire,Mglacé,2013,1800000
-Serge Beynaud,Coupé-Décalé,Côte d'Ivoire,Afrique en fête,2016,2900000
-Serge Beynaud,Coupé-Décalé,Côte d'Ivoire,Motivation,2020,3700000
-Youssou N'Dour,Mbalax,Sénégal,Egypt,2004,1500000
-Youssou N'Dour,Mbalax,Sénégal,Dakar-Kingston,2010,980000
-Youssou N'Dour,Mbalax,Sénégal,History,2015,1200000
-Davido,Afrobeats,Nigeria,A Good Time,2019,8900000
-Davido,Afrobeats,Nigeria,A Better Time,2020,10200000
-Davido,Afrobeats,Nigeria,Timeless,2023,14100000
-Ami Koité,Blues Mandingue,Mali,Haïra,2012,540000
-Ami Koité,Blues Mandingue,Mali,Fenfo,2018,870000
-Vano Baby,Hip-hop,Bénin,Gangster Romantique,2018,1200000
-Vano Baby,Hip-hop,Bénin,Bénin City,2020,1850000
-Vano Baby,Hip-hop,Bénin,L'Instinct,2022,2400000
-Charlotte Dipanda,Afropop,Cameroun,Ntankama,2009,620000
-Charlotte Dipanda,Afropop,Cameroun,La Voix du Pays,2014,890000
-Charlotte Dipanda,Afropop,Cameroun,Liberté,2020,1350000
-Master Soumy,Hip-hop,Mali,Le Griot Moderne,2016,730000
-Master Soumy,Hip-hop,Mali,Réveil,2020,1100000
-Dip Doundou Guiss,Hip-hop,Sénégal,Beuss Niki Tay,2014,2100000
-Dip Doundou Guiss,Hip-hop,Sénégal,TLK,2016,3400000
-Dip Doundou Guiss,Hip-hop,Sénégal,Lepp Fi Lanu Fekk,2023,5800000
+﻿================================================================================
+RAPPORT SAHELSOUND RECORDS
+Généré le : 22/04/2026 à 10:52
+================================================================================
+
+1. SYNTHÈSE PAR ARTISTE (triés par streams totaux)
+--------------------------------------------------------------------------------
+artiste;genre;pays;streams_formate;nb_albums
+Burna Boy;Afrobeat;Nigeria;37,600,000;3
+Davido;Afrobeats;Nigeria;33,200,000;3
+Aya Nakamura;Afropop;Mali;33,100,000;3
+Fally Ipupa;Afrobeat;RDC;16,100,000;3
+Dip Doundou Guiss;Hip-hop;Sénégal;11,300,000;3
+Serge Beynaud;Coupé-Décalé;Côte d'Ivoire;8,400,000;3
+Sidiki Diabaté;Mandingue;Mali;5,500,000;2
+Vano Baby;Hip-hop;Bénin;5,450,000;3
+Youssou N'Dour;Mbalax;Sénégal;3,680,000;3
+Charlotte Dipanda;Afropop;Cameroun;2,860,000;3
+Master Soumy;Hip-hop;Mali;1,830,000;2
+Ami Koité;Blues Mandingue;Mali;1,410,000;2
+
+2. TOP 5 DES ARTISTES
+--------------------------------------------------------------------------------
+classement;artiste;streams_formate
+1;Burna Boy;37,600,000
+2;Davido;33,200,000
+3;Aya Nakamura;33,100,000
+4;Fally Ipupa;16,100,000
+5;Dip Doundou Guiss;11,300,000
+
+3. MOYENNE DES STREAMS PAR GENRE
+--------------------------------------------------------------------------------
+genre;streams_formate
+Afrobeats;11,066,667.0
+Afrobeat;8,950,000.0
+Afropop;5,993,333.0
+Coupé-Décalé;2,800,000.0
+Mandingue;2,750,000.0
+Hip-hop;2,322,500.0
+Mbalax;1,226,667.0
+Blues Mandingue;705,000.0
+
+4. NOMBRE D'ALBUMS SORTIS PAR ANNÉE (après 2000)
+--------------------------------------------------------------------------------
+annee;nb_albums
+2004;1
+2009;1
+2010;1
+2012;1
+2013;2
+2014;2
+2015;2
+2016;3
+2017;1
+2018;4
+2019;3
+2020;6
+2021;1
+2022;3
+2023;2
+
+5. STATISTIQUES GÉNÉRALES
+--------------------------------------------------------------------------------
+indicateur;valeur
+Nombre total d'artistes;12
+Nombre total d'albums;33
+Nombre de genres différents;8
+Total des streams (tous albums);160,430,000
+Streams moyens par album;4,861,515
+Année la plus productive;2020
+Genre le plus streamé;Afrobeats
+
+================================================================================
+FIN DU RAPPORT
+================================================================================
